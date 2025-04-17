@@ -63,7 +63,7 @@ traffic-sign-detector/
 
 ### 1. Clone and Install Dependencies
 ```bash
-git clone https://github.com/yourusername/traffic-sign-detector.git
+git clone https://github.com/Max-Ola/Detect-Traffic-Signs-with-Deep-Learning-using-Keras)
 cd traffic-sign-detector
 pip install -r requirements.txt
 ```
