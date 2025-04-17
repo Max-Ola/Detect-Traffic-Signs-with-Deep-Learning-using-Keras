@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: traffic-sign-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: traffic-sign
+  template:
+    metadata:
+      labels:
+        app: traffic-sign
+    spec:
+      containers:
+      - name: app
+        image: yourdockerhub/traffic-sign-detector
+        ports:
+        - containerPort: 8501
